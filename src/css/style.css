@@ -1,5 +1,27 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #050505;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+.background--one, .background--two {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /*# sourceMappingURL=style.css.map */

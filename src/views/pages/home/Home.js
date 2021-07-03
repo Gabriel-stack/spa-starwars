@@ -1,10 +1,14 @@
+import homeSectionOne from '../../components/sections/homeSectionOne'
+import homeSectionTwo from '../../components/sections/homeSectionTwo'
+import floatImage from '../../components/float/floatImage'
 let Home = {
   is_private: false,
 
   render: async () => {
-      let view = `
-          <div>
-            <h1>Home</div>
+      let view = ` 
+            ${homeSectionOne}
+            ${homeSectionTwo}
+            ${floatImage}
           </div>
       `;
 

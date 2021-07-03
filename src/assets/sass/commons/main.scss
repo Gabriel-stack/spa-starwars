@@ -1,4 +1,15 @@
+$backgroundBlack: rgb(5, 5, 5);
+$colorWhite: #ffffff;
 *{
   margin: 0;
   padding: 0;
+}
+body{
+  width:100%;
+  height: 100vh;
+  background-color: $backgroundBlack;
+  color: $colorWhite;
+}
+h1, h2, h3, h4{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
